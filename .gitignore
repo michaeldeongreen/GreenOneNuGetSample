@@ -1,0 +1,4 @@
+/src/Server/.vs
+/src/Server/packages
+/src/Server/GreenOne.NuGet.Server.Web/bin
+/src/Server/GreenOne.NuGet.Server.Web/obj
