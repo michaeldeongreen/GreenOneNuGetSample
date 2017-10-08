@@ -1,0 +1,9 @@
+https://docs.microsoft.com/en-us/nuget/hosting-packages/nuget-server
+https://blogs.msdn.microsoft.com/mvpawardprogram/2016/06/28/creating-nuget-packages/
+https://www.youtube.com/watch?v=BsTeUs0Y5TM
+https://www.hanselman.com/blog/CreatingANuGetPackageIn7EasyStepsPlusUsingNuGetToIntegrateASPNETMVC3IntoExistingWebFormsApplications.aspx
+
+
+* Nuget Server sln
+* Library sln
+* Console that uses Nuget Server to download Library
