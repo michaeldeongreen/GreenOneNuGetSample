@@ -17,6 +17,9 @@ namespace GreenOne.NuGet.Server.Client
             int subtractResult = new SubtractThem().Subtract(5, 2);
             Console.WriteLine(string.Format("The subtract them result is {0}", subtractResult.ToString()));
 
+            int multiplyResult = new MultiplyThem().Multiply(5, 2);
+            Console.WriteLine(string.Format("The multiply them result is {0}", multiplyResult.ToString()));
+
             Console.ReadLine();
         }
     }
