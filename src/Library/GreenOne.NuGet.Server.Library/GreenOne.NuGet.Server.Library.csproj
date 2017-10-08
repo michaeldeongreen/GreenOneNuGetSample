@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddThem.cs" />
+    <Compile Include="MultiplyThem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SubtractThem.cs" />
   </ItemGroup>
