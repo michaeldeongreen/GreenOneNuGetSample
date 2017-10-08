@@ -20,4 +20,4 @@ Errors faced:
 Solution:	
 	Grant "write" access to IIS_USERS to the folder where the deployed web assets have been deployed
 	
-	
+Test CI	
