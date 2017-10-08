@@ -11,8 +11,12 @@ namespace GreenOne.NuGet.Server.Client
     {
         static void Main(string[] args)
         {
-            int result = new AddThem().Add(3, 5);
-            Console.WriteLine(string.Format("Result is {0}", result.ToString()));
+            int addResult = new AddThem().Add(3, 5);
+            Console.WriteLine(string.Format("The add them result is {0}", addResult.ToString()));
+
+            int subtractResult = new SubtractThem().Subtract(5, 2);
+            Console.WriteLine(string.Format("The subtract them result is {0}", subtractResult.ToString()));
+
             Console.ReadLine();
         }
     }

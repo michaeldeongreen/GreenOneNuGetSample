@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="AddThem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubtractThem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
