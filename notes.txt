@@ -4,6 +4,20 @@ https://www.youtube.com/watch?v=BsTeUs0Y5TM
 https://www.hanselman.com/blog/CreatingANuGetPackageIn7EasyStepsPlusUsingNuGetToIntegrateASPNETMVC3IntoExistingWebFormsApplications.aspx
 
 
-* Nuget Server sln
-* Library sln
-* Console that uses Nuget Server to download Library
+* Nuget Server - Has the Nuget.Server ASP.Net application
+* Library - Has the library that will be deployed to the NuGet.Server
+* Client - Will consume the Library via the NuGet Sever
+
+Tips:
+	Use the Visual Studio Developer Console
+
+Errors faced:
+	Permissions error when trying to:
+		View packages on the NuGet.Server landing page
+		Clear the package cache on the NuGet.Server landing page
+		Internal Server Error when trying to push the package to the server
+
+Solution:	
+	Grant "write" access to IIS_USERS to the folder where the deployed web assets have been deployed
+	
+	

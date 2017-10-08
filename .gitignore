@@ -7,3 +7,9 @@
 /src/Library/.vs
 /src/Library/GreenOne.NuGet.Server.Library/bin
 /src/Library/GreenOne.NuGet.Server.Library/obj
+
+
+/src/Client/.vs
+/src/Client/GreenOne.NuGet.Server.Client/bin
+/src/Client/GreenOne.NuGet.Server.Client/obj
+/src/Client/GreenOne.NuGet.Server.Client/packages
