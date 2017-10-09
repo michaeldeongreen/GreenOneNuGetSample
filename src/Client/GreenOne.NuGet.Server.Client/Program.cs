@@ -20,6 +20,9 @@ namespace GreenOne.NuGet.Server.Client
             int multiplyResult = new MultiplyThem().Multiply(5, 2);
             Console.WriteLine(string.Format("The multiply them result is {0}", multiplyResult.ToString()));
 
+            string printResult = new PrintThem().Print(10, 20);
+            Console.WriteLine(printResult);
+
             Console.ReadLine();
         }
     }
